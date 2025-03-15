@@ -13,12 +13,6 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -31,3 +25,22 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignorar archivos de compilación de Maven
+*.jar
+*.war
+*.ear
+
+# Ignorar archivos del IDE
+.idea/
+*.iml
+*.iws
+
+# Ignorar archivos de configuración local
+application-local.properties
+
+# Ignorar logs
+*.log
+
+# Ignorar archivos de sistema
+.DS_Store
